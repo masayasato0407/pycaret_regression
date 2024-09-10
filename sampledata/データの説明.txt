@@ -1,0 +1,10 @@
+データの説明
+生成AIを用いた仮想データ
+cancertime (発癌までの時間[年])を予測する
+データは以下の通り
+
+train.csv: 機械学習モデル作成用のデータ700例
+test.csv: 精度評価用のデータ700例  
+
+pycaret_regression_LightGBM.ipynbファイル→LightGBMを使用してモデルを作成
+pycaret_regression_Multiplemodels.ipynbファイル→複数の機械学習モデルを使用してモデルを作成
